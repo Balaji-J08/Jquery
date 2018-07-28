@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+$("#hide").click(function(){
+  $("p").hide();
+});
+
+  $("#show").click(function(){
+    $("p").show();
+  });
+
+});
+
+</script>
+  </head>
+  <body>
+<p>YOu can do anything with me....Just try to hide</p>
+<p>yee i came..</p>
+<button id = "hide">hide</button>
+<button id = "show">show</button>
+  </body>
+</html>
